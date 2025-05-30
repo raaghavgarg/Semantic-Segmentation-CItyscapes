@@ -100,9 +100,7 @@ To enhance our semantic segmentation model, we plan to explore several promising
 These strategies will help us build more robust, accurate, and efficient segmentation models, leveraging the latest deep learning advancements.
 
 
-# Links
 
-Full Project Report : https://docs.google.com/document/d/1bzoFGsyaNgRi6CWs_Aa-yJ7rqbaNKvpSBTVGQM6Qr4A/edit?usp=sharing
 
 
 
