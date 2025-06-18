@@ -8,7 +8,7 @@ Semantic segmentation architectures usually consist of  an encoder and a decoder
 wherein the encoder is supposed to downsample the image and the decoder upsample,
 And there are skip connections feeding the downsampled feature map to the decoder net at each level.
 This is a strong approach but lacks a number of things, for example the ability to capture context at different spatial levels/contexts 
-And so we explore a number of methods in our project in order to get better predictions and build on existing architectures.
+And so we explore a number of methods in our project in order to get better predictions and build on existing architectures
 
 # Thought Process
 We knew we had to go for an encoder/decoder type architecture with skip connections in between and our first approach consisted of residual connections/skip connections connecting the features of previous feature maps with newly created ones within the separate encoder and decoder nets, and the benefit of this was that it would facilitate information propagation leading to better performance with lesser number of parameters.
